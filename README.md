@@ -12,10 +12,11 @@
 
 ## 📸 Screenshot
 
+<!-- Aggiungi qui i tuoi screenshot -->
+<!-- ![Screenshot principale](docs/screenshot_main.png) -->
+<!-- ![Screenshot aggiunta account](docs/screenshot_add.png) -->
 
-![Screenshot principale](docs/screenshot_main.png)
-![Screenshot Tutorial](docs/screenshot_add.png)
-
+*Screenshot disponibili a breve.*
 
 ---
 
@@ -48,20 +49,13 @@ Questo progetto è **completamente open source** per una ragione precisa: un pas
 
 ### Opzione 1 — Eseguibile precompilato (consigliato)
 
-Scarica l'ultima versione dalla pagina [**Releases**](../../releases):
+Scarica l'ultima versione dalla pagina [**Releases**](https://github.com/massiprofessor/SecurityVaultManager/releases):
 
 | Sistema | File | Note |
 |---------|------|------|
-| Windows 10/11 | `AccountSecurity-windows.exe` | Firmato digitalmente |
-| Linux (64-bit) | `AccountSecurity-linux` | Richiede `chmod +x` |
+| Windows 10/11 | [SecurityAccountManager.exe](https://github.com/massiprofessor/SecurityVaultManager/releases/download/v0.4/SecurityAccountManager.exe) | v0.4 |
 
-**Windows:** se appare un avviso di SmartScreen, clicca "Ulteriori informazioni" → "Esegui comunque". Il file è firmato e sicuro.
-
-**Linux:**
-```bash
-chmod +x AccountSecurity-linux
-./AccountSecurity-linux
-```
+**Windows:** se appare un avviso di SmartScreen, clicca "Ulteriori informazioni" → "Esegui comunque". Il file è sicuro — puoi verificare il codice sorgente in questo repository.
 
 ---
 
@@ -73,8 +67,8 @@ chmod +x AccountSecurity-linux
 
 ```bash
 # Clona il repository
-git clone https://github.com/tuousername/account-security-manager.git
-cd account-security-manager
+git clone https://github.com/massiprofessor/SecurityVaultManager.git
+cd SecurityVaultManager
 
 # Installa le dipendenze
 pip install -r requirements.txt
@@ -88,11 +82,13 @@ python main.py
 ## 🗂️ Struttura del progetto
 
 ```
-account-security-manager/
+SecurityVaultManager/
 ├── main.py               # Entry point
 ├── requirements.txt      # Dipendenze Python
 ├── README.md
 ├── LICENSE
+├── .gitignore
+├── build.bat             # Script build Windows
 └── docs/
     └── screenshot_main.png
 ```
@@ -104,6 +100,7 @@ account-security-manager/
 | Libreria | Versione | Uso |
 |----------|----------|-----|
 | `customtkinter` | ≥ 5.0 | Interfaccia grafica |
+| `cryptography` | ≥ 41.0 | Cifratura vault (PBKDF2 + Fernet) |
 | `pyperclip` | ≥ 1.8 | Copia negli appunti |
 
 ---
@@ -126,8 +123,8 @@ Per bug critici di sicurezza, apri una **Issue** con il tag `security`.
 
 Account Security Manager è gratuito e open source. Se lo trovi utile, considera una piccola donazione per supportare lo sviluppo:
 
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Offrimi%20un%20caffè-FF5E5B?logo=ko-fi)](https://ko-fi.com/tuousername)
-[![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-Supportami-EA4AAA?logo=github)](https://github.com/sponsors/tuousername)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Offrimi%20un%20caffè-FF5E5B?logo=ko-fi)](https://ko-fi.com/massiprofessor)
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-Supportami-EA4AAA?logo=github)](https://github.com/sponsors/massiprofessor)
 
 ---
 
