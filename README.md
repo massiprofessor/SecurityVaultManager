@@ -136,7 +136,7 @@ Distribuito sotto licenza **MIT**. Vedi il file [LICENSE](LICENSE) per i dettagl
 
 ## 👤 Autore
 
-**Massimo** — [Accademia del Levante](https://accademiadellevante.it)
+**Massimo** — [Accademia del Levante](https://accademiadellevante.org)
 
 ---
 
