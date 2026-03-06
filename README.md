@@ -12,11 +12,10 @@
 
 ## 📸 Screenshot
 
-<!-- Aggiungi qui i tuoi screenshot -->
-<!-- ![Screenshot principale](docs/screenshot_main.png) -->
-<!-- ![Screenshot aggiunta account](docs/screenshot_add.png) -->
 
-*Screenshot disponibili a breve.*
+![Screenshot principale](docs/screenshot_main.png)
+![Screenshot aggiunta account](docs/screenshot_add.png)
+
 
 ---
 
